@@ -1,7 +1,7 @@
 var today = new Date();
 var hourNow = today.getHours();
 var greeting;
-var text-placeholder = document.getElementById('text-placeholder')
+//var text-placeholder = document.getElementById('text-placeholder')
 
 if (hourNow > 18) {
     greeting = 'Good evening!';
@@ -12,5 +12,6 @@ if (hourNow > 18) {
 } else {
     greeting = 'Welcome!';
 }
-& document.write('<h3>' + greeting + '</h3>')
-image-placeholder.textContent = 'Greeting!'
+document.write('<h3>' + greeting + '</h3>')
+//<div id='text-placeholder'></div>
+//text-placeholder.textContent =  'some text'
